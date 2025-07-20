@@ -1,0 +1,9 @@
+<div class="menu">
+    <nav>
+        <ul>
+            @for (item of items(); track item.id) {
+                <li class="nav-menu-li" (click)="changePage(item.href)">{{ item.title }}</li>
+            }
+        </ul>
+    </nav>
+</div>

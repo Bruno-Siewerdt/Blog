@@ -1,0 +1,40 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    --color-1: #C09759;
+    --color-2: #9F7044;
+    --color-3: #9E8E7E;
+    --color-4: #E4D7CE;
+    --color-5: #DCD0C0;
+    --color-6: #976856;
+    --color-7: #A38062;
+    --color-8: #D4B773;
+    --color-9: #C3B590;
+    --color-10: #DCDCD2;
+}
+
+.menu {
+    margin: 0;
+    background-color: var(--color-5);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.nav-menu-li {
+    list-style: none;
+    padding: 1% 1.5%;
+    margin: 0.7%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav-menu-li:hover {
+    background-color: var(--color-4);
+}

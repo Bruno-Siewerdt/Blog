@@ -1,2 +1,5 @@
+20/07/2025 - 0.0.2
+- added nav-menu;
+
 19/07/2025 - 0.0.1
 - first commit;
