@@ -1,3 +1,6 @@
+24/07/2025 - 0.0.3
+- added router for menu;
+
 20/07/2025 - 0.0.2
 - added nav-menu;
 
