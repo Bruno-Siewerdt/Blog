@@ -18,8 +18,16 @@
 }
 
 .menu {
-    margin: 0;
+    margin: 0 0 20px 0;
+    height: 50px;
+    align-items: center;
     background-color: var(--color-5);
+}
+
+nav {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 nav ul {
@@ -30,13 +38,42 @@ nav ul {
 
 .nav-menu-li {
     list-style: none;
-    padding: 1% 1.5%;
+    padding: 0 1.5%;
     margin: 0.7%;
     cursor: pointer;
-    border-radius: 5px;
     color: var(--color-11);
 }
 
 .nav-menu-li:hover {
     color: var(--color-12);
+}
+
+mat-card-content {
+    margin-top: 12px
+}
+
+.feed-card {
+  max-width: 400px;
+  min-width: 300px;
+  max-height: 600px;
+}
+
+.header-image {
+  background-image: url('https://material.angular.dev/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.grid-component {
+    margin: 20px;
+}
+
+.text-center {
+    text-align: center;
 }

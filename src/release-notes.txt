@@ -1,3 +1,7 @@
+25/07/2025 - 0.0.4
+- created layout for posts page;
+- added angular materials;
+
 24/07/2025 - 0.0.3
 - added router for menu;
 
