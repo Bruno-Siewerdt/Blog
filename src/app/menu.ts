@@ -16,7 +16,6 @@ export class Menu {
     ]);
 
     changePage(href: string) {
-        //console.log(href);
         this.router.navigate([href]);
     };
 }

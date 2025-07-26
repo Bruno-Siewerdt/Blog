@@ -1,3 +1,7 @@
+26/07/2025 - 0.0.5
+- created object for posts;
+- created main content style, with menus on the sides;
+
 25/07/2025 - 0.0.4
 - created layout for posts page;
 - added angular materials;

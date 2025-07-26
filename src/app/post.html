@@ -1,0 +1,19 @@
+<div class="grid-component">
+    <mat-card class="feed-card" appearance="outlined">
+        <mat-card-header>
+            <div mat-card-avatar style="background-image: url('https://material.angular.dev/assets/img/examples/shiba1.jpg');" class="header-image"></div>
+            <mat-card-title>{{ userName() }}</mat-card-title>
+            <mat-card-subtitle>{{ userDescription() }}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src='{{ imageUrl() }}' alt="{{ imageAlt() }}">
+        <mat-card-content>
+            <p>
+                {{ description() }}
+            </p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button matButton>LIKE</button>
+            <button matButton>SHARE</button>
+        </mat-card-actions>
+    </mat-card>
+</div>

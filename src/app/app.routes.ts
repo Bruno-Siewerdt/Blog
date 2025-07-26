@@ -4,7 +4,7 @@ import { UserPosts } from './userPosts'
 import { newPost } from './newPost'
 
 export const routes: Routes = [
-    { path: "", component: UserPosts},
-    { path: "posts", component: PostFeed},
+    { path: "", component: PostFeed},
+    { path: "posts", component: UserPosts},
     { path: "newPost", component: newPost}
 ];
