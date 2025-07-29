@@ -3,11 +3,11 @@
 </div>
 
 <div class="main-container">
-    <div class="left-menu main-component">
+    <div class="left-menu">
         Left Menu
     </div>
 
-    <div class="main-content main-component">
+    <div class="main-content">
         <div class="grid-container">
             @for (post of posts(); track post.id) {
                 <post [description]="post.description" [imageUrl]="post.imageUrl" [userName]="post.userName" [userDescription]="post.userDescription" [imageAlt]="post.imageAlt" />
@@ -15,7 +15,7 @@
         </div>
     </div>
     
-    <div class="right-menu main-component">
+    <div class="right-menu">
         Right Menu
     </div>
 </div>

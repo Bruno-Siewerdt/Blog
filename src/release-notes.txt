@@ -1,3 +1,7 @@
+29/07/2025 - 0.0.6
+- created page for new posts;
+- added the library efitorjs, a rich text editor for web;
+
 26/07/2025 - 0.0.5
 - created object for posts;
 - created main content style, with menus on the sides;
