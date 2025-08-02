@@ -1,13 +1,11 @@
-import { HostListener, Component, signal } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { Router } from '@angular/router';
-import { MatButtonModule } from '@angular/material/button';
-import { MatCardModule } from '@angular/material/card';
-import { Post } from './post';
+import { Post } from '../post/post';
 
 @Component({
   selector: 'post-feed',
   templateUrl: './postFeed.html',
-  styleUrl: './app.css',
+  styleUrl: '../app.css',
   imports: [Post]
 })
 export class PostFeed {

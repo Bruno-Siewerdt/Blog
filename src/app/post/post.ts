@@ -5,7 +5,7 @@ import { MatCardModule } from '@angular/material/card';
 @Component({
   selector: 'post',
   templateUrl: './post.html',
-  styleUrl: './app.css',
+  styleUrl: '../app.css',
   imports: [MatButtonModule, MatCardModule]
 })
 export class Post {

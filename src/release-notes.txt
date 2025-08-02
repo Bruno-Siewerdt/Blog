@@ -1,3 +1,6 @@
+29/07/2025 - 0.0.7
+- organização de arquivos do projeto;
+
 29/07/2025 - 0.0.6
 - created page for new posts;
 - added the library efitorjs, a rich text editor for web;
